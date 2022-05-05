@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  font-family: sans-serif;
+  box-sizing: inherit;
+}
+
+.app {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.wrapper {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.Counter,
+.ComponentA,
+.ComponentB {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.GlobalState {
+  border: 2px dashed red;
+  border-radius: 5px;
+  padding: 10px;
+}
